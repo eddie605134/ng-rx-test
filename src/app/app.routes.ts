@@ -9,7 +9,6 @@ import { ForkJoinComponent } from './pages/rxjs-lab/exercises/fork-join/fork-joi
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
-
   {
     path: 'rxjs-lab',
     children: [

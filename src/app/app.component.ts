@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -10,9 +9,4 @@ import { Router } from '@angular/router';
 })
 export class AppComponent {
   title = 'rxjs-advanced-demo';
-  constructor(private router: Router) {}
-
-  goToLab() {
-    this.router.navigate(['/rxjs-lab']);
-  }
 }
