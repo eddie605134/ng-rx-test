@@ -1,1 +1,13 @@
-<p>merge-map works!</p>
+<h2>🔀 mergeMap 同步請求示範</h2>
+
+<button (click)="sendRequest()">發送請求</button>
+
+@if (responses.length === 0) {
+  <p>點擊按鈕開始發送請求</p>
+} @else {
+  <ul>
+    @for (res of responses; track res) {
+      <li>{{ res }}</li>
+    }
+  </ul>
+}
