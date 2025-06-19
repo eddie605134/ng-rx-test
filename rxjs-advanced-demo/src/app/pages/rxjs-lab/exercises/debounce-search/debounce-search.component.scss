@@ -1,0 +1,16 @@
+input {
+  padding: 0.5rem;
+  width: 300px;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+
+  li {
+    padding: 0.25rem 0;
+    border-bottom: 1px solid #eee;
+  }
+}
