@@ -14,3 +14,11 @@ ul {
     border-bottom: 1px solid #eee;
   }
 }
+
+:host {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100dvh;
+}
